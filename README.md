@@ -92,7 +92,7 @@ Typing...
 You can view the project layout through the image and link below:
 
 <p align="center">
-  <a href="https://www.figma.com/file/UwFEntsHpHYJlHNQAQr4gA/Podcastr/duplicate/">
+  <a href="https://www.figma.com/file/UwFEntsHpHYJlHNQAQr4gA/">
     <img src="./.github/podcastr.png" width="600" alt="Project layout">
     <p align="center">@figma</p>
   </a>
