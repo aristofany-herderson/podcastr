@@ -1,0 +1,93 @@
+.episode {
+  max-width: 45rem;
+  padding: 3rem 2rem;
+  margin: 0 auto;
+}
+
+.episode .thumbnailContainer {
+  position: relative;
+}
+
+.episode .thumbnailContainer img {
+  border-radius: 1rem;
+}
+
+.episode .thumbnailContainer button {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+  border: 0;
+  position: absolute;
+  z-index: 5;
+  font-size: 0;
+  -webkit-transition: -webkit-filter 0.2s;
+  transition: -webkit-filter 0.2s;
+  transition: filter 0.2s;
+  transition: filter 0.2s, -webkit-filter 0.2s;
+}
+
+.episode .thumbnailContainer button:first-child {
+  left: 0;
+  top: 50%;
+  background: var(--purple-500);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.episode .thumbnailContainer button:last-child {
+  right: 0;
+  top: 50%;
+  background: var(--green-500);
+  -webkit-transform: translate(50%, -50%);
+          transform: translate(50%, -50%);
+}
+
+.episode .thumbnailContainer button:hover {
+  -webkit-filter: brightness(0.9);
+          filter: brightness(0.9);
+}
+
+.episode header {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--green-100);
+}
+
+.episode header h1 {
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.episode header span {
+  display: inline-block;
+  font-size: 0.875rem;
+}
+
+.episode header span + span {
+  margin-left: 1rem;
+  padding-left: 1rem;
+  position: relative;
+}
+
+.episode header span + span::before {
+  content: "";
+  width: 4px;
+  height: 4px;
+  border-radius: 2px;
+  background: #ddd;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.episode .description {
+  margin-top: 2rem;
+  line-height: 1.675rem;
+  color: var(--gray-800);
+}
+
+.episode .description p {
+  margin: 1.5rem 0;
+}
+/*# sourceMappingURL=episode.module.css.map */

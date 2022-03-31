@@ -1,0 +1,24 @@
+.headerContainer {
+  background: var(--white);
+  height: 6.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2rem 4rem;
+  border-bottom: 1px solid var(--gray-100);
+}
+
+.headerContainer p {
+  margin-left: 2rem;
+  padding: 0.25rem 0 0.25rem 2rem;
+  border-left: 1px solid var(--gray-100);
+}
+
+.headerContainer span {
+  margin-left: auto;
+  text-transform: capitalize;
+}
+/*# sourceMappingURL=styles.module.css.map */
